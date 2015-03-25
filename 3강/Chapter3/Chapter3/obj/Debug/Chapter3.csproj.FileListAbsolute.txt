@@ -1,0 +1,6 @@
+C:\Study\pseudo code\pseudo-code_369\3강\Chapter3\Chapter3\bin\Debug\Chapter3.exe.config
+C:\Study\pseudo code\pseudo-code_369\3강\Chapter3\Chapter3\bin\Debug\Chapter3.exe
+C:\Study\pseudo code\pseudo-code_369\3강\Chapter3\Chapter3\bin\Debug\Chapter3.pdb
+C:\Study\pseudo code\pseudo-code_369\3강\Chapter3\Chapter3\obj\Debug\Chapter3.csprojResolveAssemblyReference.cache
+C:\Study\pseudo code\pseudo-code_369\3강\Chapter3\Chapter3\obj\Debug\Chapter3.exe
+C:\Study\pseudo code\pseudo-code_369\3강\Chapter3\Chapter3\obj\Debug\Chapter3.pdb

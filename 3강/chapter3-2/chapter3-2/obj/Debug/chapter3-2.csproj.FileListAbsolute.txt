@@ -1,0 +1,5 @@
+C:\Study\pseudo code\pseudo-code_369\3강\chapter3-2\chapter3-2\bin\Debug\chapter3-2.exe.config
+C:\Study\pseudo code\pseudo-code_369\3강\chapter3-2\chapter3-2\bin\Debug\chapter3-2.exe
+C:\Study\pseudo code\pseudo-code_369\3강\chapter3-2\chapter3-2\bin\Debug\chapter3-2.pdb
+C:\Study\pseudo code\pseudo-code_369\3강\chapter3-2\chapter3-2\obj\Debug\chapter3-2.exe
+C:\Study\pseudo code\pseudo-code_369\3강\chapter3-2\chapter3-2\obj\Debug\chapter3-2.pdb
