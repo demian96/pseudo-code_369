@@ -1,1 +1,2 @@
 C:\Study\pseudo code\pseudo-code_369\369 슈도\369\369\bin\Debug\369.exe.config
+D:\_work\_project\pseudo-code_369\369 슈도\369\369\bin\Debug\369.exe.config

@@ -8,7 +8,9 @@ namespace _369
 {
     class Program
     {
-        static void Main(string[] args)
+     
+
+        static void DrawScreen()
         {
             // 그래픽 : 화면 중앙 상단에 0 출력
             // 그래픽 : 컨베이어 벨트를 출력
@@ -17,6 +19,12 @@ namespace _369
             // 개별 박스에 1부터 3까지 순서대로 출력
             // 좌하단에 버튼 : Pass 출력
             // 우하단에 버튼 : Finger 출력
+        }
+
+        static void Main(string[] args)
+        {
+            DrawScreen();
+            ///- UI입력이 없는 순수 로직만 만들어본다. 
             // 버튼 Pass 입력 
                 // 컨베이어 벨트 이동
                 // 개별 박스 1칸 이동
