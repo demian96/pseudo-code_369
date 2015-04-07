@@ -5,16 +5,12 @@ using System.Text;
 
 namespace ConsoleApplication1
 {
-    class Program
+    class ArrayClass
     {
         static void Main(string[] args)
         {
-            int num = 0
-
-            int[] reading = new int[100] { 4, 9, 1, 0, 21, 12 };
-
-            for (int i = 0; i < reading.Length; i++)
-                Console.WriteLine("reading[" + i + "]={0}", reading[i]);
+            for (int i = 1; i < 101; ++i)
+                Console.WriteLine("Array[" + i + "]={0}",i);      
         }
     }
 }
