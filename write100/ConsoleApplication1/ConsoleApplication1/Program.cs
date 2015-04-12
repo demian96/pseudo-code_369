@@ -5,12 +5,23 @@ using System.Text;
 
 namespace ConsoleApplication1
 {
-    class ArrayClass
+    class Program
     {
         static void Main(string[] args)
         {
-            for (int i = 1; i < 101; ++i)
-                Console.WriteLine("Array[" + i + "]={0}",i);      
+            int b = 0;
+            int a = b + 1;
+                        
+            int[] reading = new int[]{a} ;
+
+           for (int b = 0; b < reading.Length; b++)
+              
+               if (b == 100) break;
+               Console.WriteLine(reading[a]); 
+            
+
+               
         }
     }
 }
+  
