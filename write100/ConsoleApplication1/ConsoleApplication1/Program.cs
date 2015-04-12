@@ -9,16 +9,17 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            int b = 0;
-            int a = b + 1;
-                        
-            int[] reading = new int[]{a} ;
+            int[] reading = new int[100];
+
+			for(int i = 0; i < reading.Length; ++i)
+			{
+				reading[i] = i+1; // i begin with 0
+			}
 
            for (int b = 0; b < reading.Length; b++)
-              
-               if (b == 100) break;
-               Console.WriteLine(reading[a]); 
-            
+			{              
+               Console.WriteLine(reading[b]); 
+			}
 
                
         }
