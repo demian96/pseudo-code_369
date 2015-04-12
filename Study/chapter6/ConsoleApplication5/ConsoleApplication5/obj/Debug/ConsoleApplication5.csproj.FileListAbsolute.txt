@@ -1,0 +1,5 @@
+C:\Study\pseudo code\pseudo-code_369\3강\chapter6\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe.config
+C:\Study\pseudo code\pseudo-code_369\3강\chapter6\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe
+C:\Study\pseudo code\pseudo-code_369\3강\chapter6\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.pdb
+C:\Study\pseudo code\pseudo-code_369\3강\chapter6\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.exe
+C:\Study\pseudo code\pseudo-code_369\3강\chapter6\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.pdb

@@ -1,0 +1,6 @@
+C:\Study\pseudo code\pseudo-code_369\3강\chapter5\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe.config
+C:\Study\pseudo code\pseudo-code_369\3강\chapter5\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe
+C:\Study\pseudo code\pseudo-code_369\3강\chapter5\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.pdb
+C:\Study\pseudo code\pseudo-code_369\3강\chapter5\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.csprojResolveAssemblyReference.cache
+C:\Study\pseudo code\pseudo-code_369\3강\chapter5\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.exe
+C:\Study\pseudo code\pseudo-code_369\3강\chapter5\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.pdb

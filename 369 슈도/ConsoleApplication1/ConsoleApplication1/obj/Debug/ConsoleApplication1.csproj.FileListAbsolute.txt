@@ -1,2 +1,0 @@
-C:\Study\pseudo code\pseudo-code_369\369 슈도\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
-D:\_work\_project\pseudo-code_369\369 슈도\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
