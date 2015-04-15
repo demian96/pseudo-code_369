@@ -14,6 +14,12 @@ namespace ConsoleApplication1
 {
     class Program
     {
+
+		void ProcessArray(int beginIndex, int count, bool isEven)
+		{
+			// implement here!!
+		}
+
         static void Main(string[] args)
         {
             int[] reading = new int[100]; // 100개의 reading 배열 선언
