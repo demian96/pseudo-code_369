@@ -10,13 +10,16 @@ namespace ConsoleApplication1
 {
     class Program
     {
+        // 이게 메소드(함수) 임
+        void HelloWorld(string name)
+        {
+            Console.WriteLine("Hello~ " + name);
+        }
+        
         static void Main(string[] args)
         {
-            Console.Write("이름을 입력하세요: ");
-            string line = Console.ReadLine();
-            
-            Console.WriteLine("Hello "+ line);
-
+            HelloWorld("Park");
+            HelloWorld("Kim");
         }
     }
 }
