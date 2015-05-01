@@ -15,7 +15,7 @@ namespace ConsoleApplication1
         {
             Console.WriteLine("Hello~ " + name);
         }
-        
+
         static void Main(string[] args)
         {
             HelloWorld("Park");

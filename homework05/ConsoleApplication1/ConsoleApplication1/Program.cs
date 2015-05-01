@@ -11,13 +11,27 @@ namespace ConsoleApplication1
 {
     class won
     {
-        int hp = 100;
+        int m_hp = 100;
 
-        public void sap();
-          {int i = hp - 20}
-        public void sleep();
-          {int j = hp +10}
-        
+        public void sap()
+          {
+            int lefthp = m_hp - 20;
+            m_hp = lefthp;
+          }
+        public void sleep()
+          {
+            int up = m_hp +10;
+            m_hp = up;
+           }
+        public void gethp()
+        {
+            int gethp = m_hp;
+            m_hp = gethp;
+        }
+    }
+ 
+    class Program
+    {
         static void Main(string[] args)
         {
             won bot = new won();
@@ -27,7 +41,11 @@ namespace ConsoleApplication1
             bot.sap();
             bot.sap();
             bot.sleep();
+            bot.gethp();
+
+            int hp = bot.gethp;
+                        
+           Console.WriteLine("남은 체력:", hp);
         }
-        
-    }
+     }
 }
