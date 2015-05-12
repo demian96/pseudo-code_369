@@ -66,10 +66,10 @@ namespace ConsoleApplication1
             
             // 남은 값을 받아서 화면에 출력하는 방법
             int leftHp = bot.get_hp();        
-            Console.WriteLine("남은 체력 =",leftHp);
+            Console.WriteLine("남은 체력 ="+leftHp.ToString());
             
             // 바로 함수를 호출하여 화면에 출력하는 방법
-            Console.WriteLine("남은 저질 체력=", bot.get_hp());
+            Console.WriteLine("남은 저질 체력="+bot.get_hp().ToString());
         }
        
     }
