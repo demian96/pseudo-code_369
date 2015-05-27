@@ -11,18 +11,29 @@ using System.Threading.Tasks;
 //현재 체력을 반환하는 갯체력 매소드를 구현한다.
 //삽질 세번하고 한번 수면한다음 남은 체력을 화면에 출력하시오
 
+//헌터에게 mp 추가
+//heal()이라는 메소드를 이용하면 체력이 20차고 mp는 5감소한다
+//삽질을 다섯번 한후 heal하여 체력을 회복한 뒤 현재 체력을 출력
+
 namespace ConsoleApplication1
 {
     class hunter
     {
         int m_hp = 0; // 공용 변수(저장소)이므로 이곳에 최종 결과 값을 저장하도록 한다.
         // 초기값이 0이면 처음부터 가진 값이 없으므로 어디선가 초기값을 채워주도록 한다. 
+
+        int m_mp = 5;
         
         public void setHp(int hp)
         {
             m_hp = hp; //파라메터 hp로 받은 값을 헌터의 m_hp에 덮어쓴다. 
         }
-        
+
+        public void setMp(int mp)
+        {
+            m_mp = mp; //파라메터 hp로 받은 값을 헌터의 m_hp에 덮어쓴다. 
+        }
+
         public void sap()
         {
             int down = m_hp - 10; // down이라는 임시 변수에 현재 hp에서 10을 뺀 나머지를 저장한다.
@@ -41,6 +52,7 @@ namespace ConsoleApplication1
    
         // get을 하기 때문에 리턴형이 필요하다. 
         //public void get_hp()
+
         public int get_hp() // hp는 int형이기 때문에 리턴형 int가지도록 정의 한다. 
         {
             //int get_hp=0;
@@ -49,6 +61,14 @@ namespace ConsoleApplication1
             
             // m_hp에 위의 함수들(sap, sleep) 에서 이미 값을 반영 했기 때문에 단순 리턴만 해주면 된다. 
             return m_hp;
+        }
+
+        public void heal()
+        {
+            int heal_hp = m_hp + 20;
+            m_hp = heal_hp;
+            int heal_mp = m_mp - 5;
+            m_mp = heal_mp;
         }
     }
 
@@ -63,6 +83,7 @@ namespace ConsoleApplication1
             bot.sap();
             bot.sap();
             bot.sleep();
+            bot.heal();
             
             // 남은 값을 받아서 화면에 출력하는 방법
             int leftHp = bot.get_hp();        
